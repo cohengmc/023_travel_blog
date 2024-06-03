@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+export default function MAY1224() {
+    return (
 
-ReactDOM.createRoot(document.getElementById('12MAY24')).render(
-  <React.StrictMode>
-    <h1>HEY</h1>
-  </React.StrictMode>,
-)
+        <div>
+
+            <h1>12MAY24</h1>
+
+        </div>
+
+    )
+}

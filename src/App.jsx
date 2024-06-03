@@ -1,12 +1,21 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import { Hashrouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from "./Home";
+import { MAY1224 } from "./days/12MAY24";
+import { MAY1324 } from "./days/13MAY24";
+import { MAY1424 } from "./days/14MAY24";
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <a href="./days/12MAY24.html">12MAY24</a>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/12May24" element={<MAY1224 />} />
+        <Route path="/13May24" element={<MAY1324 />} />
+        <Route path="/14May24" element={<MAY1424 />} />
+      </Routes>
+    </Router>
   );
 }
+
+export default App()
