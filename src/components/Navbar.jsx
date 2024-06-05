@@ -1,7 +1,7 @@
 import geoffIcon from "../assets/geoff_character.gif";
 import "./Navbar.css";
 
-function App() {
+function Navbar() {
   return (
     <>
       <div id="header">
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Navbar;

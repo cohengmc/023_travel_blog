@@ -8,7 +8,7 @@
     gap: 100px;
 }
 
-.images {
+#MAY1224 > .images {
     align-items: center;
     display: flex;
     gap: 2em;
@@ -17,11 +17,11 @@
     margin: 3em 0;
 }
 
-img { 
+#MAY1224 > img { 
     max-width: 400px;
 }
 
-#app > h1, h2 {
+#MAY1224 > h1, #MAY1224 > h2 {
     color: forestgreen;
     text-shadow: 0 0 5px whitesmoke;
 }
