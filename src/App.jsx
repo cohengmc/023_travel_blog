@@ -1,5 +1,5 @@
 import "./App.css";
-import { Hashrouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./Home";
 import { MAY1224 } from "./days/12MAY24";
 import { MAY1324 } from "./days/13MAY24";
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App()
+export default App;

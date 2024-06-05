@@ -1,6 +1,14 @@
 31 May 2024
 Documenting the journey
 
+To run vite from terminal:
+Navigate to directory then:
+    TO CREATE (ONLY ONCE) - npm create vite@latest
+EACH TIME:
+    npm install
+    npm run dev
+    use localhost link in terminal
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

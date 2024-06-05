@@ -1,4 +1,4 @@
-export default function MAY1424() {
+export function MAY1424() {
     return (
 
         <div>

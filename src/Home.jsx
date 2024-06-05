@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 
-function Home() {
+export function Home() {
     return (
 
-        <div>
+        <>
 
             <h1>HOME</h1>
             <Link to="/">Home</Link>
@@ -12,9 +12,7 @@ function Home() {
             <Link to="/14MAY24">14MAY24</Link>
 
 
-        </div>
+        </>
 
-    )
+    );
 }
-
-export default Home()
