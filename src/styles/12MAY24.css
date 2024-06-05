@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+}
+
+.images {
+    align-items: center;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+img { 
+    max-width: 400px;
+}
+
+#app > h1, h2 {
+    color: forestgreen;
+    text-shadow: 0 0 5px whitesmoke;
+}

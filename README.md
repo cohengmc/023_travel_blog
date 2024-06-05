@@ -9,6 +9,11 @@ EACH TIME:
     npm run dev
     use localhost link in terminal
 
+
+Put this in vite.config.js to get .JPG images to work
+assetsInclude: ['**/*.JPG'],
+https://stackoverflow.com/questions/78043075/why-jpg-images-cant-be-imported-in-vite-for-react
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

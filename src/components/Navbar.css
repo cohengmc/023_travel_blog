@@ -1,0 +1,69 @@
+a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link,  a:visited {
+    color: black;
+}
+
+#taskbar {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: end;
+    margin: 1em 2em 0 0;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#header {
+    display: flex;
+}
+
+#header img {
+    max-width: 10em;
+    align-self: center;
+}
+
+#header-text {
+    color: black;
+    max-width: 100px;
+    text-align: start;
+    align-self: center;
+}
+
+#header > ul {
+    margin-left: auto;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 600px) {
+    #taskbar {
+        justify-content: center;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-text {
+        text-align: center;
+    }
+
+    #header > ul {
+        margin: auto;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #header-text {
+        text-align: start;
+    }
+}
