@@ -5,16 +5,17 @@
 
 // Make it look like a polaroid
 
+import './Card.css'
+
 function Card(props) {
-    return (
-      <div>
 
-        <h2>12 May 2024</h2>
-        <img src="../assts/12MAY24/IMG_6272.JPG" alt="" />
-        <h3>I am the title</h3>
+  return (
+    <div className='card-tile'>
+      <h2>12 May 2024</h2>
+      <img className="card-img" src={ props.img } alt="" />
+      <h3>I am the title</h3>
+    </div>
+  );
+}
 
-      </div>
-    );
-  }
-  
-  export default Card;
+export default Card;
