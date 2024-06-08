@@ -1,0 +1,10 @@
+React/ Document Structure:
+Passing in formation for cards from a separate document, not within home
+
+Home Screen:
+- Cork going all the way to the bottom of the Screen
+
+- The card tiles get a pin in the top as if they are tacked to a bullitiin
+    - Then when you hover over the tile, it animates back and forth around pin
+
+- Gloss animation over image when you hover over the image
