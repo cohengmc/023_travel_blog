@@ -1,17 +1,17 @@
-a {
+#navbar a {
     /* text-decoration: none; */
     color: black;
 }
 
-a:hover {
+#navbar a:hover {
     text-decoration: none;
 }
 
-a:link,  a:visited {
+#navbara:link,  a:visited {
     color: black;
 }
 
-#taskbar {
+#navbar #taskbar {
     list-style: none;
     display: flex;
     gap: 1em;
@@ -21,49 +21,49 @@ a:link,  a:visited {
     font-size: larger;
 }
 
-#header {
+#navbar #header {
     display: flex;
 }
 
-#header img {
+#navbar #header img {
     max-width: 10em;
     align-self: center;
 }
 
-#header-text {
+#navbar #header-text {
     color: black;
     max-width: 100px;
     text-align: start;
     align-self: center;
 }
 
-#header > ul {
+#navbar #header > ul {
     margin-left: auto;
     margin-top: 2em;
 }
 
 @media screen and (max-width: 600px) {
-    #taskbar {
+    #navbar #taskbar {
         justify-content: center;
     }
 
-    #header {
+    #navbar #header {
         flex-direction: column;
         align-items: center;
     }
 
-    #header-text {
+    #navbar #header-text {
         text-align: center;
     }
 
-    #header > ul {
+    #navbar #header > ul {
         margin: auto;
         margin-top: 0;
     }
 }
 
 @media screen and (max-width: 400px) {
-    #header-text {
+    #navbar #header-text {
         text-align: start;
     }
 }

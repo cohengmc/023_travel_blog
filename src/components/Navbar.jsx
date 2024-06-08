@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <>
+    <div id="navbar">
       <div id="header">
         <a href="/">
           <img
@@ -25,7 +25,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -1,4 +1,11 @@
-.card-tile-list {
+#home {
+    background-image: url(./assets/cork.jpg);
+    background-size: contain;
+}
+
+#home .card-tile-list {
     display: flex;
     justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
 }
