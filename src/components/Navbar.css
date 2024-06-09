@@ -1,10 +1,13 @@
 #navbar a {
     /* text-decoration: none; */
     color: black;
+    text-shadow: 0px 0px 5px whitesmoke;
+
 }
 
 #navbar a:hover {
     text-decoration: none;
+    text-shadow: 0px 0px 10px whitesmoke;
 }
 
 #navbara:link,  a:visited {
@@ -28,6 +31,7 @@
 #navbar #header img {
     max-width: 10em;
     align-self: center;
+
 }
 
 #navbar #header-text {
@@ -35,6 +39,13 @@
     max-width: 100px;
     text-align: start;
     align-self: center;
+    text-shadow: 0px 0px 5px whitesmoke;
+
+}
+
+#navbar #header-text:hover {
+    text-shadow: 0px 0px 10px whitesmoke;
+
 }
 
 #navbar #header > ul {

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 import "./Home.css";
 
@@ -46,6 +47,7 @@ export function Home() {
           />
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
