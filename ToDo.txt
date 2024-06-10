@@ -12,3 +12,7 @@ Home Screen:
 
 - Image Gallery component where you can click on images and then close them
     - https://www.w3schools.com/howto/howto_css_modal_images.asp
+
+- Make the packing list page more fun/ interactive
+    - confetti on click
+    - animate/ label with hover and cool colors the various items

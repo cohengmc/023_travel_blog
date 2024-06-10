@@ -1,12 +1,40 @@
 #MAY1324 {
     background-color: #d8b698;
+    height: 100vh;
 }
 
 #MAY1324 #backpack {
     height: 40vw;
 }
 
-#MAY1324 #pack-items{
+#MAY1324 #pack-items {
     width: 80vw;
-    display: none; /* Start with packed items invisible */
+    display: none;
+    /* Start with packed items invisible */
+}
+
+#MAY1324 .gentle-hover-shake:hover {
+    animation: tilt-shaking 0.5s infinite;
+}
+
+@keyframes tilt-shaking {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0eg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }

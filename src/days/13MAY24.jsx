@@ -1,5 +1,5 @@
 import packingItems from "../assets/13MAY24/IMG_6282.JPG";
-import packedBag from "../assets/13MAY24/IMG_6283.JPG";
+import packedBag from "../assets/13MAY24/IMG_5950.png";
 
 import Navbar from ".././components/Navbar";
 
@@ -20,6 +20,7 @@ export function MAY1324() {
         <h2 id="clickMe">Click bag to unpack!</h2>
         <img
           id="backpack"
+          className="gentle-hover-shake"
           src={packedBag}
           alt="Geoff's bag packed up the night before he leaves"
           onClick={backpackClicked}
