@@ -1,0 +1,12 @@
+#MAY1324 {
+    background-color: #d8b698;
+}
+
+#MAY1324 #backpack {
+    height: 40vw;
+}
+
+#MAY1324 #pack-items{
+    width: 80vw;
+    display: none; /* Start with packed items invisible */
+}

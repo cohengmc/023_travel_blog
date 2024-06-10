@@ -17,13 +17,14 @@ export function Home() {
       <div className="card-tile-list">
         <Link to="/14MAY24">
           <Card
-            landscape = { true }
+            vertical = { true }
             img={dancingPic}
             paddingBottom= "50px"
             alt="Geoff dancing Salsa on the docks in Boston"
             title="Back in Boston!"
             date="14 May 2024"
             location="Pittsburgh → Boston"
+            clickable={true}
           />
         </Link>
         <Link to="/13MAY24">
@@ -34,6 +35,7 @@ export function Home() {
             title="Packing List"
             date="13 May 2024"
             location="Pittsburgh"
+            clickable={true}
           />
         </Link>
         <Link to="/12MAY24">
@@ -44,6 +46,7 @@ export function Home() {
             title="Fam Dinner"
             date="12 May 2024"
             location="Pittsburgh"
+            clickable={true}
           />
         </Link>
       </div>

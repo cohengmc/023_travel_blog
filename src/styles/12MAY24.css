@@ -17,9 +17,11 @@
     margin: 3em 0;
 }
 
-#MAY1224 #content img { 
+#MAY1224 #content img {
     max-width: 400px;
+    border: 1px solid gray;
 }
+
 
 #MAY1224 #content h1, #MAY1224 #content h2 {
     color: forestgreen;

@@ -8,7 +8,7 @@
     font-family: 'Schoolbell';
 }
 
-.card-tile:hover {
+.card-tile-hover:hover {
     box-shadow: 10px 10px 5px black;
 }
 
@@ -30,6 +30,7 @@
 
 .card-tile-list a {
     text-decoration: none;
+    color: black;
 }
 
 .card-tile .title {
@@ -37,7 +38,13 @@
     font-size: 2.5rem;
 }
 
+.card-tile .image-info {
+    width: 100%;
+    min-height: 5em;
+}
+
 .card-tile .day-specifics {
+    margin: auto;
     display: flex;
     width: 80%;
     justify-content: space-between;
