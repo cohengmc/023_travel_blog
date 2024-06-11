@@ -16,3 +16,4 @@ Home Screen:
 - Make the packing list page more fun/ interactive
     - confetti on click
     - animate/ label with hover and cool colors the various items
+    https://codepen.io/xxrobot/pen/KZvegB
