@@ -1,5 +1,5 @@
-import packingItems from "../assets/13MAY24/IMG_6282.JPG";
-import packedBag from "../assets/13MAY24/IMG_5950.png";
+import packingItems from "../assets/MAY24/13MAY24/IMG_6282.JPG";
+import packedBag from "../assets/MAY24/13MAY24/IMG_5950.png";
 
 import Navbar from ".././components/Navbar";
 

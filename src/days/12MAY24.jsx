@@ -1,7 +1,7 @@
-import famDinner from "../assets/12MAY24/IMG_6272.JPG";
-import famDinnerSelfie from "../assets/12MAY24/IMG_6275.JPG";
-import parkSelfie1 from "../assets/12MAY24/IMG_6278.JPG";
-import parkSelfie2 from "../assets/12MAY24/IMG_6600.JPG";
+import famDinner from "../assets/MAY24/12MAY24/IMG_6272.JPG";
+import famDinnerSelfie from "../assets/MAY24/12MAY24/IMG_6275.JPG";
+import parkSelfie1 from "../assets/MAY24/12MAY24/IMG_6278.JPG";
+import parkSelfie2 from "../assets/MAY24/12MAY24/IMG_6600.JPG";
 
 import Navbar from "../components/Navbar";
 

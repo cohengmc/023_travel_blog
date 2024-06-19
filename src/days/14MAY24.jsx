@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
 import Gallery from "../components/Gallery";
 
-import parkSelfie2 from "../assets/12MAY24/IMG_6600.JPG";
+import parkSelfie2 from "../assets/MAY24/12MAY24/IMG_6600.JPG";
 
 const content = import.meta.glob(
   [
-    "../assets/14MAY24/*.MOV",
-    "../assets/14MAY24/*.PNG",
-    "../assets/14MAY24/*.JPG",
+    "../assets/MAY24/14MAY24/*.MOV",
+    "../assets/MAY24/14MAY24/*.PNG",
+    "../assets/MAY24/14MAY24/*.JPG",
   ],
   {
     as: "url",

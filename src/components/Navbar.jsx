@@ -10,10 +10,10 @@ function Navbar() {
             src={geoffIcon}
             alt="A cartoon caricature of Geoff with a smirk and peace sign that shakes back and forfth"
           />
+          <div id="header-text">
+            <h1>Geoff Travels</h1>
+          </div>
         </a>
-        <div id="header-text">
-          <h1>Geoff Travels</h1>
-        </div>
         <ul id="taskbar">
           <li>
             <a href="about.html">About</a>
