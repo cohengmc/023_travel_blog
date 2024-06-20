@@ -3,8 +3,18 @@ import parkSelfie2 from "./assets/MAY24/12MAY24/IMG_6600.JPG";
 import packingStuff from "./assets/MAY24/13MAY24/IMG_6282.JPG";
 import dancingPic from "./assets/MAY24/14MAY24/IMG_6523.PNG";
 import may15Pic from "./assets/MAY24/15MAY24/IMG_4E1D6050C4ED-1.jpeg";
+import jun19Pic from "./assets/JUN24/19JUN24/IMG_6916.JPG";
 
 export default [{
+    img: jun19Pic,
+    alt: "Sunset in Tucson with Cacti",
+    title: "Tucson Joggin!",
+    date: "19 June 2024",
+    location: "Tucson",
+    clickable: true,
+    link: "/19JUN24",
+
+  }, {
     img: mandelaSelfie,
     paddingLeft: "30px",
     alt: "Selfie of Geoff with Mandela the Story Tella on in front of Jackson Square, New Orleans",
