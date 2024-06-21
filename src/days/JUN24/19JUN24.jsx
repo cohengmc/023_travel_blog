@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar";
 import Section from "../../components/Section";
+import LoneImage from "../../components/LoneImage";
 
 import "../../styles/JUN24/19JUN24.css";
 
@@ -10,6 +11,10 @@ import view3 from "../../assets/JUN24/19JUN24/view.JPG";
 import running from "../../assets/JUN24/19JUN24/IMG_6902.mov";
 import vlog from "../../assets/JUN24/19JUN24/IMG_6911.mov";
 
+import sunset1 from "../../assets/JUN24/19JUN24/IMG_6906.mov";
+import sunset2 from "../../assets/JUN24/19JUN24/IMG_6916.JPG";
+import sunset3 from "../../assets/JUN24/19JUN24/IMG_6912.MOV";
+
 let viewImages = [view3, view1, view2];
 let viewAlts = [
   "Mount Lemmon view",
@@ -19,6 +24,9 @@ let viewAlts = [
 
 let runningContent = [running, vlog];
 let runningAlts = ["Will running through the desert", "Running vlog with Will"];
+
+let sunsetContent = [sunset1, sunset3];
+let sunsetAlts = ["sunset", "sunset video on mountain"];
 
 export function JUN1924() {
   return (
@@ -40,6 +48,15 @@ export function JUN1924() {
           content={runningContent}
           alts={runningAlts}
           text="Later that afternoon we had a solid run at Sabino Canyon"
+        />
+        <LoneImage 
+          image={sunset2}
+          alt="sunset video"
+        />
+        <Section
+          content={sunsetContent}
+          alts={sunsetAlts}
+          text="Twas a beautiful Tucson sunset"
         />
       </div>
     </div>

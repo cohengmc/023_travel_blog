@@ -1,0 +1,7 @@
+.loneImage img {
+    height: fit-content;
+    max-width: 70vw;
+    background-color: whitesmoke;
+    padding: 1em;
+    border-radius: 8px;
+}

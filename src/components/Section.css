@@ -2,20 +2,27 @@
     padding: 2em 0;
 }
 
+.section .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
 .section .gallery img {
+    height: fit-content;
     max-width: 400px;
     background-color: whitesmoke;
     padding: .5em;
     border-radius: 8px;
-    margin: 1em;
 }
 
 .section .gallery video {
+    height: fit-content;
     max-width: 400px;
     background-color: whitesmoke;
     padding: .5em;
     border-radius: 8px;
-    margin: 1em;
 }
 
 .section .text {
