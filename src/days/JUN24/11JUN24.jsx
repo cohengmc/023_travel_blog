@@ -1,6 +1,6 @@
 // import famDinner from "../assets/12MAY24/IMG_6272.JPG";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
 
 // import "../styles/12MAY24.css";
 

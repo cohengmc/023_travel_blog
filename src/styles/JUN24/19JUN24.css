@@ -5,3 +5,11 @@
     background-attachment: fixed;
     background-position: center;
 }
+
+#JUN1924 .text {
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    text-indent: 2em;
+}

@@ -1,9 +1,9 @@
 import packingItems from "../assets/MAY24/13MAY24/IMG_6282.JPG";
 import packedBag from "../assets/MAY24/13MAY24/IMG_5950.png";
 
-import Navbar from ".././components/Navbar";
+import Navbar from "../../components/Navbar";
 
-import "../styles/13MAY24.css";
+import "../styles/MAY24/13MAY24.css";
 
 export function MAY1324() {
 

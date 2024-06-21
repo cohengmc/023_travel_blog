@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
 
 import parkSelfie2 from "../assets/MAY24/12MAY24/IMG_6600.JPG";
 

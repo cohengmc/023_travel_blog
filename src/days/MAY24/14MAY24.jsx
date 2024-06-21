@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar";
-import Gallery from "../components/Gallery";
+import Navbar from "../../components/Navbar";
+import Gallery from "../../components/Gallery";
 
 import parkSelfie2 from "../assets/MAY24/12MAY24/IMG_6600.JPG";
 
