@@ -2,12 +2,12 @@ import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Home } from "./Home";
-import { MAY1224 } from "./days/12MAY24";
-import { MAY1324 } from "./days/13MAY24";
-import { MAY1424 } from "./days/14MAY24";
-import { MAY1524 } from "./days/15MAY24";
-import { JUN1124 } from "./days/11JUN24";
-import { JUN1924 } from "./days/19JUN24";
+import { MAY1224 } from "./days/MAY24/12MAY24";
+import { MAY1324 } from "./days/MAY24/13MAY24";
+import { MAY1424 } from "./days/MAY24/14MAY24";
+import { MAY1524 } from "./days/MAY24/15MAY24";
+import { JUN1124 } from "./days/JUN24/11JUN24";
+import { JUN1924 } from "./days/JUN24/19JUN24";
 
 
 import { Error } from "./Error";

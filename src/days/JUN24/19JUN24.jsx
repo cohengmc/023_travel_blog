@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 
-import "../styles/JUN24/19JUN24.css";
+import "../../styles/JUN24/19JUN24.css";
 
 export function JUN1924() {
   return (

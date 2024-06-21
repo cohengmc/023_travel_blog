@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 
-import parkSelfie2 from "../assets/MAY24/12MAY24/IMG_6600.JPG";
+import parkSelfie2 from "../../assets/MAY24/12MAY24/IMG_6600.JPG";
 
 
 export function MAY1524() {
