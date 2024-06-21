@@ -9,3 +9,10 @@
     gap: 2em;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 600px) {
+    #home .card-tile-list {
+        gap: 1em;
+    }
+
+}

@@ -4,7 +4,7 @@
     align-items: center;
     border: 1px solid black;
     box-shadow: 5px 5px 5px #4d4d4e;
-    background-color: 	#FAF9F6;
+    background-color: #FAF9F6;
     font-family: 'Schoolbell';
 }
 
@@ -50,6 +50,34 @@
     justify-content: space-between;
 }
 
-.card-tile .date , .card-tile .location{
+.card-tile .date,
+.card-tile .location {
     margin: .5rem 0 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    .card-tile .card-img-container {
+        height: 100px;
+        width: 100px;
+        margin: .75em .75em .25em .75em;
+    }
+
+    .card-tile .title {
+        font-size: 1rem;
+    }
+
+    .card-tile .day-specifics {
+        font-size: .5rem;
+    }
+
+    .card-tile .image-info {
+        width: 100%;
+        min-height: 4em;
+    }
+
+    .card-tile .date,
+    .card-tile .location {
+        margin: .5rem 0 .5rem 0;
+    }
+
 }
