@@ -10,7 +10,7 @@ const content = import.meta.glob(
   ],
   {
     as: "url",
-    import: "default",
+    import: "default", 
   }
 );
 
@@ -29,7 +29,7 @@ for (const path in content) {
 }
 
  let theIMG = imgArray.filter((link) => link.includes("6890"));
- 
+
  console.log("the img: " + theIMG);
 
 export function JUN1924() {
