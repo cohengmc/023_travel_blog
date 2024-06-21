@@ -14,7 +14,7 @@ function Navbar() {
             <h1>Geoff Travels</h1>
           </div>
         </a>
-        <ul id="taskbar">
+        {/* <ul id="taskbar">
           <li>
             <a href="about.html">About</a>
           </li>
@@ -23,7 +23,7 @@ function Navbar() {
               Github
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
