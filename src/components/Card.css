@@ -57,27 +57,26 @@
 
 @media screen and (max-width: 600px) {
     .card-tile .card-img-container {
-        height: 100px;
-        width: 100px;
+        height: 60vw;
+        width: 60vw;
         margin: .75em .75em .25em .75em;
     }
 
     .card-tile .title {
-        font-size: 1rem;
+        font-size: 1.75rem;
     }
 
     .card-tile .day-specifics {
-        font-size: .5rem;
+        font-size: .8rem;
     }
 
     .card-tile .image-info {
-        width: 90%;
         min-height: 4em;
     }
 
     .card-tile .date,
     .card-tile .location {
-        margin: .5rem 0 .5rem 0;
+        margin: .2rem 0 .5rem 0;
     }
 
 }
