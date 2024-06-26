@@ -8,6 +8,7 @@ import { MAY1424 } from "./days/MAY24/14MAY24";
 import { MAY1524 } from "./days/MAY24/15MAY24";
 import { JUN1124 } from "./days/JUN24/11JUN24";
 import { JUN1924 } from "./days/JUN24/19JUN24";
+import { JUN2524 } from "./days/JUN24/25JUN24";
 
 
 import { Error } from "./Error";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/15May24" element={<MAY1524 />} />
         <Route path="/11Jun24" element={<JUN1124 />} />
         <Route path="/19Jun24" element={<JUN1924 />} />
+        <Route path="/25Jun24" element={<JUN2524 />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

@@ -12,7 +12,7 @@
 
 .section .gallery img {
     height: fit-content;
-    max-width: 400px;
+    /* max-height: 100v; */
     background-color: whitesmoke;
     padding: .5em;
     border-radius: 8px;
@@ -20,7 +20,7 @@
 
 .section .gallery video {
     height: fit-content;
-    max-width: 400px;
+    max-width: 80vw;
     background-color: whitesmoke;
     padding: .5em;
     border-radius: 8px;
@@ -40,11 +40,13 @@
 @media screen and (max-width: 800px) {
 
     .section .gallery img {
-        max-width: 80vw;
+        max-height: none !important;
+        max-width: 80vw !important;
     }
 
     .section .gallery video {
-        max-width: 80vw;
+        max-height: none !important;
+        max-width: 80vw !important;
     }
 
 }

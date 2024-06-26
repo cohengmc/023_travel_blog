@@ -11,7 +11,7 @@ function Navbar() {
             alt="A cartoon caricature of Geoff with a smirk and peace sign that shakes back and forfth"
           />
           <div id="header-text">
-            <h1>Geoff Travels</h1>
+            <h1>Geoff <br/> Travels</h1>
           </div>
         </a>
         {/* <ul id="taskbar">

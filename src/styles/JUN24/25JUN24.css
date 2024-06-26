@@ -1,0 +1,19 @@
+#JUN2524 {
+    height: 100%;
+    background-image: url("../../assets/JUN24/25JUN24/IMG_7127.JPG");
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#JUN2524 .shadow {
+    background-color: rgba(245, 245, 245, .8);
+    border-radius: 8px;
+    width:fit-content;
+    padding: .5em 1em;
+}
+
+#JUN2524 .date {
+    margin: auto;
+}

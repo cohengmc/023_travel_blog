@@ -1,6 +1,5 @@
 import Navbar from "../../components/Navbar";
 import Section from "../../components/Section";
-import LoneImage from "../../components/LoneImage";
 
 import "../../styles/JUN24/19JUN24.css";
 
@@ -49,9 +48,9 @@ export function JUN1924() {
           alts={runningAlts}
           text="Later that afternoon we had a solid run at Sabino Canyon"
         />
-        <LoneImage 
-          image={sunset2}
-          alt="sunset video"
+        <Section 
+          content={[sunset2]}
+          alts="sunset video"
         />
         <Section
           content={sunsetContent}

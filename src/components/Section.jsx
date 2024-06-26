@@ -15,7 +15,14 @@ function Section(props) {
                   content.includes(".png")
               )
               .map((content, int) => (
-                <img key={int} src={content} alt={props.alts[int]} />
+                <img
+                  key={int}
+                  src={content}
+                  alt={props.alts[int]}
+                  style={{
+                    maxHeight: `${60 / props.content.length}vw`,
+                  }}
+                />
               ))}
             {props.content
               .filter(
@@ -23,13 +30,19 @@ function Section(props) {
                   content.includes(".mov") || content.includes(".MOV")
               )
               .map((content, int) => (
-                <video key={int} src={content} alt={props.alts[int]} controls />
+                <video
+                  key={int}
+                  src={content}
+                  alt={props.alts[int]}
+                  style={{maxHeight: `${60 / props.content.length}vw`}}
+                  controls
+                />
               ))}
           </div>
         ) : (
           ""
         )}
-        <p class="text">{props.text}</p>
+        {props.text ? <p class="text">{props.text}</p> : ""}
       </section>
     </div>
   );

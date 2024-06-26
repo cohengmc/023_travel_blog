@@ -1,8 +1,15 @@
+#navbar {
+    padding-bottom: 1em;
+}
+
 #navbar a {
     text-decoration: none;
     color: black;
     text-shadow: 0px 0px 5px whitesmoke;
     display: flex;
+    padding-right: 1em;
+    border-bottom-right-radius: 8px;
+    /* background-color: rgba(245, 245, 245, .4); */
 }
 
 #navbar a:hover {
@@ -30,6 +37,8 @@ a:visited {
 
 #navbar #header {
     display: flex;
+    /* width: fit-content; */
+    /* background-color: rebeccapurple; */
 }
 
 #navbar #header img {
@@ -40,7 +49,7 @@ a:visited {
 
 #navbar #header-text {
     color: black;
-    max-width: 100px;
+    max-width: fit-content;
     text-align: start;
     align-self: center;
 }
