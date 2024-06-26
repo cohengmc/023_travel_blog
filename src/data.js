@@ -4,6 +4,7 @@ import packingStuff from "./assets/MAY24/13MAY24/IMG_6282.JPG";
 import dancingPic from "./assets/MAY24/14MAY24/IMG_6523.PNG";
 import may15Pic from "./assets/MAY24/15MAY24/IMG_4E1D6050C4ED-1.jpeg";
 import jun19Pic from "./assets/JUN24/19JUN24/IMG_6916.JPG";
+import jun22Pic from "./assets/JUN24/22JUN24/IMG_6966.JPG";
 import jun25Pic from "./assets/JUN24/25JUN24/IMG_7131.JPG";
 
 export default [{
@@ -15,6 +16,17 @@ export default [{
     location: "San Francisco",
     clickable: true,
     link: "/25JUN24",
+
+  }, {
+
+    img: jun22Pic,
+    paddingLeft: "70px",
+    alt: "Geoff and Will selfie on a hike",
+    title: "Arizona Adventures",
+    date: "22 June 2024",
+    location: "Tucson",
+    clickable: true,
+    link: "/22JUN24",
 
   }, {
     img: jun19Pic,

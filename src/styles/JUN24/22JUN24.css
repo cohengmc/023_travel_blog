@@ -1,0 +1,19 @@
+#JUN2224 {
+    height: 100%;
+    background-image: url("../../assets/JUN24/22JUN24/IMG_6965.JPG");
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#JUN2224 .shadow {
+    background-color: rgba(245, 245, 245, .8);
+    border-radius: 8px;
+    width:fit-content;
+    padding: .5em 1em;
+}
+
+#JUN2224 .date {
+    margin: auto;
+}
