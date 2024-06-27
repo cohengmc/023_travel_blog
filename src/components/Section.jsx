@@ -20,7 +20,7 @@ function Section(props) {
                   src={content}
                   alt={props.alts[int]}
                   style={{
-                    maxHeight: `${60 / props.content.length}vw`,
+                    maxHeight: `${60 / props.content.length}dvw`,
                   }}
                 />
               ))}
@@ -34,7 +34,7 @@ function Section(props) {
                   key={int}
                   src={content}
                   alt={props.alts[int]}
-                  style={{maxWidth: `${80 / props.content.length}vw`}}
+                  style={{maxWidth: `${80 / props.content.length}dvw`}}
                   controls
                 />
               ))}

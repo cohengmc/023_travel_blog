@@ -20,14 +20,14 @@
 
 .section .gallery video {
     height: fit-content;
-    max-width: 80vw;
+    max-width: 80dvw;
     background-color: whitesmoke;
     padding: .5em;
     border-radius: 8px;
 }
 
 .section .text {
-    max-width: 80vw;
+    max-width: 80dvw;
     margin: 1em auto;
     justify-content: center;
     text-align: center;
@@ -41,12 +41,12 @@
 
     .section .gallery img {
         max-height: none !important;
-        max-width: 80vw !important;
+        max-width: 80dvw !important;
     }
 
     .section .gallery video {
         max-height: none !important;
-        max-width: 80vw !important;
+        max-width: 80dvw !important;
     }
 
 }
